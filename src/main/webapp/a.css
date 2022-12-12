@@ -1,0 +1,13 @@
+body{
+    background-repeat: no-repeat;
+    background-image: url("vins2.jpg");
+    background-size: cover;
+    background-position:center;
+    color: white;
+}
+h1{
+    font-family: Calibri, serif;
+}
+.boto{
+    background: blue;
+}
