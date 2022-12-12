@@ -5,6 +5,10 @@ import java.util.List;
 
 public class ViExpert {
     private ArrayList<Vins> vins = new ArrayList<>();
+    Vins vi1 = new Vins("Messet del Lleó","rosat");
+    Vins vi2 = new Vins("Vi blanc","blanc");
+    Vins vi3 = new Vins("vi fosc","negre");
+    Vins vi4 = new Vins("vi neu","blanc");
 
     public ViExpert(ArrayList<Vins> vins) {
         this.vins = vins;
@@ -13,8 +17,11 @@ public class ViExpert {
     public ViExpert() {
     }
 
-    public void AddVins(Vins vi){
-        this.vins.add(vi);
+    public void AddVins(){
+        this.vins.add(vi1);
+        this.vins.add(vi2);
+        this.vins.add(vi3);
+        this.vins.add(vi4);
     }
 
     public List<String> getMarques(String tipusVi){
